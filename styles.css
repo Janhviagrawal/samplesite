@@ -1,0 +1,108 @@
+body{
+    font-family:"Montserrat" ;
+}
+#title{
+background-color: rgb(114, 222, 241);
+}
+h1{
+    color: #fff;
+   
+}
+.container-fluid{
+    padding: 3% 15%;
+    
+}
+.navbar{
+    padding:0 0 5rem;
+}
+.nav-item{
+    padding: 18px;
+}
+.nav-link{
+    font-size: 2rem;
+    font-weight: 300;
+}
+.downloadbutton{
+    margin: 5% 3% 5% 0;
+}
+.titleimg{
+  width:20% ;
+  position:absolute;
+  right:50px;
+  /*transform: rotate(3deg);*/
+  
+}
+#features{
+   padding: 7% 15%;
+   background-color:#fff ;
+   
+}
+h3{
+    font-family: cursive;
+    font-weight: bold;
+}
+.featurebox{
+    text-align:center;
+    
+}
+.icon{
+    color:rgb(114, 222, 241);
+    margin-bottom: 1rem;
+
+}
+.icon:hover{
+   color:aqua;
+}
+#testimonials {
+   padding: 7% 15% 7%;
+   text-align: center;
+   background-color:rgb(114, 222, 241);
+   color: azure;
+}
+.imgintestimonials{
+   width: 30%;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   
+}
+.emcls{
+    font-weight: bold;
+    font-size: larger;
+}
+.mispa{
+    width: 30%;
+    margin: 0 50% 0 38%; 
+}
+#press{
+    background-color:rgb(114, 222, 241);
+}
+h5{
+    text-align: center;
+}
+.Location{
+    margin: 30px 50% 20px 45%;
+
+}
+.agappe{
+    width: 13%;
+    position:relative;
+    left: 30%;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+}
+.tulip{
+    width:21%;
+    position:relative;
+    left:30%;
+    margin-bottom: 30px; 
+}
+
+@media (max-width: 1028px){
+ #title{
+    text-align: center;
+ }
+}
+#footer{
+    text-align: center;
+}
